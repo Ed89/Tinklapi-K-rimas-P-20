@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            width: 80%;
+            padding-top: 5%;
+            margin: auto;
+        }
+
+        input {
+            margin-bottom: 15px;
+        }
+      #lmassage{
+          width: 300px;
+          height: 100px;
+          display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+            <legend>HTML FORMS</legend>
+            <label for="fname">Name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Name"><br>
+
+            <label for="lsurname">Surname:</label><br>
+            <input type="text" id="lsurname" name="lsurnamelsurname" placeholder="Surname"><br>
+
+            <label for="lemail">Email:</label><br>
+            <input type="email" id="lemail" name="lemail" placeholder="Your email"><br>
+
+            <label for="lmobile">Mobile:</label><br>
+            <input type="tel" id="lmobile" name="lmobile" placeholder="+370"><br>
+
+            <label for="lage">Age:</label><br>
+            <input type="number" id="lage" name="lage" ><br>
+
+            <label for="lfood">Favorite food:</label><br>
+            <select id="lfood" name="lfood">
+                <option value="meat">Meat</option>
+                <option value="meat1">Meat1</option>
+                <option value="meat2">Meat2</option>
+                <option value="meat3">Meat3</option>
+            </select>
+
+            <p>Gender:</p>
+            <input type="radio" id="Male" name="gender" value="Male">
+            <label for="Male">Male</label><br>
+            <input type="radio" id="Female" name="gender" value="other">
+            <label for="Female">Female</label><br>
+
+
+            <input type="file" id="lfile" name="lfile"><br>
+
+            <label for="ldate">Date:</label><br>
+            <input type="date" id="ldate" name="ldate"><br>
+
+            <p>Enter your message</p>
+            <textarea name="lmessage" id="lmassage" cols="30" rows="10">Massage...</textarea>
+
+        </fieldset>
+    </form>
+</body></html>
