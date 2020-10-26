@@ -1,0 +1,49 @@
+body {
+    width: 60%;
+    margin: auto;
+    border-style: none ridge ridge none;
+
+}
+
+ .a2 p, .a3 p, .a4 p {
+
+    margin: auto;
+    display: contents;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+
+
+h5 {
+    font-style: italic;
+    font-weight: bold;
+font-size: inherit;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr,
+th {
+    border: 1px solid;
+    padding: 3px;
+    text-align: center;
+}
+
+td {
+    white-space: pre-line;
+    text-align: left;
+}
+.a2 h5, .a3 h5, .a4 h5{
+    margin: 5px;
+
+}
+hr{
+    margin: 15px 10px 10px 0;
+}
